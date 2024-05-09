@@ -2,7 +2,7 @@ from fabric import Connection
 
 def deploy():
     # Conexão SSH usando uma raw string para o caminho da chave
-    c = Connection('192.168.100.8', connectkwargs={"keyfilename": r"C:\Users\Dias/.ssh/id_rsa"})
+    c = Connection('192.168.100.8', connectkwargs={"keyfilename": r"C:\Users\Dell\OneDrive\Área de Trabalho\DeployComPy"})
 
     # Caminho onde os arquivos devem ser enviados no servidor
     remote_path = '/usr/share/nginx/html'
